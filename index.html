@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <head>
-Hello welcome to this test
+<!-- Developing a simple HTML website to test different payloads and sanitization methods for XSS vulnerabilities -->
 </head>
 <h1> This is just a test for my first commit on GitHub </h1>
-<script>alert(1)</script>
-<p> It show you an alert box just close it </p>
+
+<p> It shows you an alert box; just close it </p>
+<div>
+  <button type="button"> Press for XSS 
+    <script onClick=alert(1) >
+  </button>
+  
+</div>
 </html>
