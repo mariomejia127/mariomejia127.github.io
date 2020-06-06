@@ -1,0 +1,20 @@
+<!DOCTYPE hmlt>
+<head>
+<title> Search Projects </title>
+</head>
+
+<body>
+<h1> Just another test for this page </h1>
+<p1> This will be a test for an XSS polygot </p1>
+<br>
+<br>
+<script>
+function mario(){
+alert(1);
+</script>
+
+<button type="button" onclick="mario()"> Test XSS</button>
+
+</body>
+
+</html>
