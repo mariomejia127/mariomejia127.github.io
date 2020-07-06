@@ -64,7 +64,7 @@ console.log( window.location.href );  // oh, hey, it replaced the path with /foo
   <script>
     function mario(){
       console.log( window.location.href );  // whatever your current location href is
-      window.history.replaceState( {} , 'search.html', '/search.html?<script>');
+      window.history.replaceState( {} , 'search.html', '/search.html?%3Cscript%3E');
       var url = decodeURIComponent(window.location.href);
       console.log(url);  // replaced
     }
