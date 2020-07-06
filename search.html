@@ -47,15 +47,16 @@ alert(1);
   </script>
   <br>
   <br>
-  <button onclick="myFunction()">Load new document</button>
+  <button onclick="myFunction()">Redirect with changed URL</button>
 
 <script>
 function myFunction() {
-  location.assign("https://www.tripadvisor.com/mediakit");
-  /*
-console.log( window.location.href );  // whatever your current location href is
-window.history.replaceState( {} , 'search.html', '/foo' );
-console.log( window.location.href );  // oh, hey, it replaced the path with /foo */
+  
+  console.log( window.location.href );  // whatever your current location href is
+      window.history.replaceState( {} , 'search.html', '/search.html?%3Cscript%3E');
+      var url = decodeURIComponent(window.location.href);
+      console.log(url);  // replaced
+      location.assign("https://www.tripadvisor.com/mediakit");
 }
 </script>
 <br>
