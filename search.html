@@ -52,6 +52,29 @@ alert(1);
 <script>
 function myFunction() {
   location.assign("https://www.tripadvisor.com/mediakit");
+
+   chrome.webRequest.onBeforeSendHeaders.addEventListener(function(details){
+    var newRef = "http://mariomejia127.github.io/search.html?hello";
+    var hasRef = false;
+    for(var n in details.requestHeaders){
+        hasRef = details.requestHeaders[n].name == "Referer";
+        if(hasRef){
+            details.requestHeaders[n].value = newRef;
+         break;
+        }
+    }
+    if(!hasRef){
+        details.requestHeaders.push({name:"Referer",value:newRef});
+    }
+    return {requestHeaders:details.requestHeaders};
+},
+{
+    urls:["http://tripadvisor.com/mediakit"]
+},
+[
+    "requestHeaders",
+    "blocking"
+]);
 }
 </script>
 <br>
