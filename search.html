@@ -16,7 +16,7 @@ function mario1(){
 alert(1);
 }
 </script>
-  <a href="https://postmates.com/">Click Me!</a>
+  <a href="https://tripadvisor.com/mediakit">Click Me!</a>
 <br>
   <br>
 <button type="button" onclick="mario1()">Test XSS</button>
@@ -53,10 +53,10 @@ alert(1);
 function myFunction() {
   
   console.log( window.location.href );  // whatever your current location href is
-  window.history.replaceState( {} , 'search.html', '/search.html?<script>)",;}}[].)');
+  window.history.replaceState( {} , 'search.html', '/search.html?<script>');
       var url = decodeURIComponent(window.location.href);
       console.log(url);  // replaced
-      location.assign("https://postmates.com/");
+      location.assign("https://tripadvisor.com/mediakit");
 }
 </script>
 <br>
@@ -65,7 +65,7 @@ function myFunction() {
   <script>
     function mario(){
       console.log( window.location.href );  // whatever your current location href is
-      window.history.replaceState( {} , 'search.html', '/search.html?},);');
+      window.history.replaceState( {} , 'search.html', '/search.html?<script>;
       var url = decodeURIComponent(window.location.href);
       console.log(url);  // replaced
     }
