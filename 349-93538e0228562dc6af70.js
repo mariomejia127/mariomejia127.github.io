@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[349],{192:function(t){t.exports=JSON.parse('{"AuthorizedApplication":{"noApps":"You do not have any authorised applications currently."},"AuthorizedApplicationsView":{"subtitle":"These applications have been authorised to access data from your account.","title":"Authorised Applications"},"Menu":{"list":{"entry":{"authorizedApplications":"Authorised Applications"}}},"OAuthPage":{"title":"Authorise Connection"}}')}}]);
+//# sourceMappingURL=349-93538e0228562dc6af70.chunk.js.map
