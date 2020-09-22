@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{111:function(e,t,n){"use strict";n.r(t);var a=n(0),r=n.n(a),c=n(22),i=n(8),o=n(9);n(633);t.default=Object(i.c)((function(){var e=o.a.toasts;function t(t){for(var n=0;n<e.length;n+=1)if(e[n].id===t){e.splice(n,1);break}}var n=e.map((function(e){var n=e.id,a=e.preset,i=e.text;return r.a.createElement(c.b,{key:n,id:n,text:i,preset:a,onClose:t})}));return r.a.createElement("div",{className:"toast-manager"},n)}))},633:function(e,t,n){}}]);
-//# sourceMappingURL=ToastManager-48924b6f265b9cd182e5.chunk.js.map
