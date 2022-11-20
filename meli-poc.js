@@ -14,6 +14,6 @@ fetch("https://www.mercadolibre.com.mx/profile/api/user/update", {
     },
     "referrer": "https://www.mercadolibre.com.mx/profile?view=profile&source=rules",
     "method": "PUT",
-    "body": "{\"newData\":{\"alternative_phone\":{\"area_code\":\"222\",\"extension\":\"\",\"number\":\"1435999\"}},\"isBU\":false,\"isCO\":true,\"isProgressive\":false}",
+    "body": "{\"newData\":{\"alternative_phone\":{\"area_code\":\"222\",\"extension\":\"\",\"number\":\"1439999\"}},\"isBU\":false,\"isCO\":true,\"isProgressive\":false}",
     "mode": "cors"
 });
