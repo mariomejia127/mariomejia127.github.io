@@ -5,8 +5,7 @@ fetch("https://www.mercadolibre.com.mx/profile/api/user/update", {
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "en-US,en;q=0.5",
         "Content-Type": "application/json;charset=utf-8",
-        "x-csrf-token": "wzHBqQtu-E8m4H0geNPCvnP1tiyUtmtPBo9w",
-        "X-XSRF-TOKEN": "PGXjndE3-aU6wD3lQ6G_H_tE_mey12gatFt0",
+        "x-csrf-token": "ZRC41Wo4-aaswdlWx1b1qYNj5YHMjuXLdGUQ",
         "Sec-Fetch-Dest": "empty",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "same-origin"
