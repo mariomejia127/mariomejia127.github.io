@@ -5,6 +5,10 @@ metadata:
   description: "A test component to observe fetch behavior."
   annotations:
     backstage.io/techdocs-ref: url:https://moblig.free.beeceptor.com/image.png
+  links:
+    - url: https://moblig.free.beeceptor.com
+      title: My Dashboard
+      icon: dashboard
 spec:
   type: service
   lifecycle: experimental
