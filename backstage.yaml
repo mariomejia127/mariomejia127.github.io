@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-component
+  description: "A test component to observe fetch behavior."
+  annotations:
+    backstage.io/techdocs-ref: url:https://moblig.free.beeceptor.com/image.png
+spec:
+  type: service
+  lifecycle: experimental
+  owner: moblig
