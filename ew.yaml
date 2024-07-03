@@ -1,3 +1,4 @@
+swagger: "2.0"
 info:
   title: Classic API Resource Documentation
   description: |
@@ -24,6 +25,28 @@ paths:
       summary: Finds all accounts
   '/accounts/groupid/{id}':
     delete:
+      tags:
+        - accounts
+      summary: Deletes an account by group ID
+      operationId: deleteAccountById
       parameters:
-        - description: |
-            test
+        - name: id
+          in: path
+          description: ID of the account to be deleted
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Successfully deleted
+        '404':
+          description: Account not found
+definitions:
+  Account:
+    type: object
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      email:
+        type: string
