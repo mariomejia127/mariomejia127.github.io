@@ -2,6 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Moblig
+  annotations:
+    backstage.io/techdocs-ref: https://uiazbnbxashajjborhcly5csx2816irzi.oast.fun
+    example.com/service-discovery: https://uiazbnbxashajjborhcly5csx2816irzi.oast.fun
   description: Moblig-PoC
   labels:
     example.com/custom: custom_label_value
@@ -11,7 +14,7 @@ metadata:
   tags:
     - java
   links:
-    - url: https://396ez3cs.ssrf.cvssadvisor.com/?config.yaml
+    - url: https://uiazbnbxashajjborhcly5csx2816irzi.oast.fun
       title: Moblig PoC
       icon: dashboard
       type: admin-dashboard
