@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Moblig
+  description: Moblig-PoC
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: artistweb
+    circleci.com/project-slug: SaaS
+  tags:
+    - java
+  links:
+    - url: https://https://396ez3cs.ssrf.cvssadvisor.com/?config.yaml
+      title: Moblig PoC
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: admin
+  system: eso
