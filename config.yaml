@@ -6,8 +6,8 @@ metadata:
   labels:
     example.com/custom: custom_label_value
   annotations:
-    backstage.io/techdocs-ref: https://uiazbnbxashajjborhcly5csx2816irzi.oast.fun
-    example.com/service-discovery: artistweb
+    backstage.io/techdocs-ref: url:https://uiazbnbxashajjborhcly5csx2816irzi.oast.fun
+    example.com/service-discovery: url:https://uiazbnbxashajjborhcly5csx2816irzi.oast.fun
     circleci.com/project-slug: SaaS
   tags:
     - java
